@@ -71,7 +71,7 @@ namespace Project1 {
 			// 
 			this->button1->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 14.25F, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(0)));
-			this->button1->Location = System::Drawing::Point(1167, 501);
+			this->button1->Location = System::Drawing::Point(1168, 361);
 			this->button1->Name = L"button1";
 			this->button1->Size = System::Drawing::Size(275, 221);
 			this->button1->TabIndex = 0;
@@ -83,7 +83,7 @@ namespace Project1 {
 			// 
 			this->button2->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 14.25F, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(0)));
-			this->button2->Location = System::Drawing::Point(95, 192);
+			this->button2->Location = System::Drawing::Point(96, 52);
 			this->button2->Name = L"button2";
 			this->button2->Size = System::Drawing::Size(275, 221);
 			this->button2->TabIndex = 1;
@@ -94,7 +94,7 @@ namespace Project1 {
 			// 
 			this->button3->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 14.25F, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(0)));
-			this->button3->Location = System::Drawing::Point(95, 501);
+			this->button3->Location = System::Drawing::Point(96, 361);
 			this->button3->Name = L"button3";
 			this->button3->Size = System::Drawing::Size(275, 221);
 			this->button3->TabIndex = 2;
@@ -105,7 +105,7 @@ namespace Project1 {
 			// 
 			this->button4->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 14.25F, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(0)));
-			this->button4->Location = System::Drawing::Point(95, 803);
+			this->button4->Location = System::Drawing::Point(96, 663);
 			this->button4->Name = L"button4";
 			this->button4->Size = System::Drawing::Size(275, 221);
 			this->button4->TabIndex = 3;
@@ -116,7 +116,7 @@ namespace Project1 {
 			// 
 			this->button5->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 14.25F, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(0)));
-			this->button5->Location = System::Drawing::Point(1167, 192);
+			this->button5->Location = System::Drawing::Point(1168, 52);
 			this->button5->Name = L"button5";
 			this->button5->Size = System::Drawing::Size(275, 221);
 			this->button5->TabIndex = 4;
@@ -126,7 +126,7 @@ namespace Project1 {
 			// pictureBox1
 			// 
 			this->pictureBox1->Image = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"pictureBox1.Image")));
-			this->pictureBox1->Location = System::Drawing::Point(528, 391);
+			this->pictureBox1->Location = System::Drawing::Point(529, 251);
 			this->pictureBox1->Name = L"pictureBox1";
 			this->pictureBox1->Size = System::Drawing::Size(499, 376);
 			this->pictureBox1->TabIndex = 5;
@@ -136,7 +136,7 @@ namespace Project1 {
 			// 
 			this->button6->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 14.25F, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(0)));
-			this->button6->Location = System::Drawing::Point(1167, 803);
+			this->button6->Location = System::Drawing::Point(1168, 663);
 			this->button6->Name = L"button6";
 			this->button6->Size = System::Drawing::Size(275, 221);
 			this->button6->TabIndex = 6;
@@ -148,7 +148,7 @@ namespace Project1 {
 			// 
 			this->AutoScaleDimensions = System::Drawing::SizeF(6, 13);
 			this->AutoScaleMode = System::Windows::Forms::AutoScaleMode::Font;
-			this->ClientSize = System::Drawing::Size(1584, 1161);
+			this->ClientSize = System::Drawing::Size(1584, 906);
 			this->Controls->Add(this->button6);
 			this->Controls->Add(this->pictureBox1);
 			this->Controls->Add(this->button5);
