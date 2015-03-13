@@ -57,6 +57,9 @@
     <ClCompile Include="Antivirus.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="frmQuiz.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="MyForm.h">
@@ -99,6 +102,9 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="Antivirus.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="frmQuiz.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

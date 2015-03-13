@@ -79,6 +79,7 @@
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Antivirus.cpp" />
+    <ClCompile Include="frmQuiz.cpp" />
     <ClCompile Include="MyForm.cpp" />
     <ClCompile Include="MyForm1.cpp" />
     <ClCompile Include="MyForm10.cpp" />
@@ -95,6 +96,9 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Antivirus.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="frmQuiz.h">
       <FileType>CppForm</FileType>
     </ClInclude>
     <ClInclude Include="MyForm.h">
@@ -138,6 +142,9 @@
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
+    <EmbeddedResource Include="frmQuiz.resx">
+      <DependentUpon>frmQuiz.h</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="MyForm.resx">
       <DependentUpon>MyForm.h</DependentUpon>
     </EmbeddedResource>

@@ -1,5 +1,6 @@
 #pragma once
 #include "MyForm1.h"
+#include "frmQuiz.h"
 
 namespace Project1 {
 
@@ -165,9 +166,12 @@ namespace Project1 {
 	private: System::Void button1_Click(System::Object^  sender, System::EventArgs^  e) {
 	}
 	private: System::Void button6_Click(System::Object^  sender, System::EventArgs^  e) {
+				 frmQuiz ^quiz = gcnew frmQuiz;
+				 quiz->Show();
+				 
 	}
 private: System::Void button3_Click(System::Object^  sender, System::EventArgs^  e) {
-	MyForm1 ^ form1 = gcnew MyForm1;
+	MyForm1 ^form1 = gcnew MyForm1;
 	form1->Show();
 }
 private: System::Void button7_Click(System::Object^  sender, System::EventArgs^  e) {
