@@ -56,6 +56,7 @@ namespace Project1 {
 		/// </summary>
 		void InitializeComponent(void)
 		{
+			System::ComponentModel::ComponentResourceManager^  resources = (gcnew System::ComponentModel::ComponentResourceManager(frmQuiz::typeid));
 			this->btnPlay = (gcnew System::Windows::Forms::Button());
 			this->btnHTP = (gcnew System::Windows::Forms::Button());
 			this->btn = (gcnew System::Windows::Forms::Button());
@@ -117,7 +118,9 @@ namespace Project1 {
 			this->Controls->Add(this->btn);
 			this->Controls->Add(this->btnHTP);
 			this->Controls->Add(this->btnPlay);
+			this->Icon = (cli::safe_cast<System::Drawing::Icon^>(resources->GetObject(L"$this.Icon")));
 			this->Name = L"frmQuiz";
+			this->StartPosition = System::Windows::Forms::FormStartPosition::CenterScreen;
 			this->Text = L"frmQuiz";
 			this->Load += gcnew System::EventHandler(this, &frmQuiz::frmQuiz_Load);
 			this->ResumeLayout(false);

@@ -60,9 +60,9 @@ namespace Project1 {
 			// NEXT
 			// 
 			this->NEXT->BackgroundImageLayout = System::Windows::Forms::ImageLayout::None;
-			this->NEXT->Location = System::Drawing::Point(727, 615);
+			this->NEXT->Location = System::Drawing::Point(727, 666);
 			this->NEXT->Name = L"NEXT";
-			this->NEXT->Size = System::Drawing::Size(45, 35);
+			this->NEXT->Size = System::Drawing::Size(45, 38);
 			this->NEXT->TabIndex = 0;
 			this->NEXT->Text = L"NEXT";
 			this->NEXT->UseVisualStyleBackColor = true;
@@ -70,14 +70,14 @@ namespace Project1 {
 			// 
 			// MyForm1
 			// 
-			this->AutoScaleDimensions = System::Drawing::SizeF(6, 12);
+			this->AutoScaleDimensions = System::Drawing::SizeF(6, 13);
 			this->AutoScaleMode = System::Windows::Forms::AutoScaleMode::Font;
 			this->BackgroundImage = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"$this.BackgroundImage")));
 			this->BackgroundImageLayout = System::Windows::Forms::ImageLayout::Stretch;
-			this->ClientSize = System::Drawing::Size(784, 661);
+			this->ClientSize = System::Drawing::Size(784, 716);
 			this->Controls->Add(this->NEXT);
 			this->Name = L"MyForm1";
-			this->Text = L"MyForm1";
+			this->Text = L"Email Security";
 			this->ResumeLayout(false);
 
 		}

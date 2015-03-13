@@ -15,9 +15,6 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="MyForm.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="MyForm1.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
@@ -60,11 +57,11 @@
     <ClCompile Include="frmQuiz.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="frmSource.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="MyForm.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
     <ClInclude Include="MyForm1.h">
       <Filter>Header Files</Filter>
     </ClInclude>
@@ -107,11 +104,11 @@
     <ClInclude Include="frmQuiz.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="frmSource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="MyForm.resx">
-      <Filter>Resource Files</Filter>
-    </EmbeddedResource>
     <EmbeddedResource Include="MyForm1.resx">
       <Filter>Resource Files</Filter>
     </EmbeddedResource>
@@ -146,6 +143,12 @@
       <Filter>Resource Files</Filter>
     </EmbeddedResource>
     <EmbeddedResource Include="MyForm9.resx">
+      <Filter>Resource Files</Filter>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmQuiz.resx">
+      <Filter>Resource Files</Filter>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmSource.resx">
       <Filter>Resource Files</Filter>
     </EmbeddedResource>
   </ItemGroup>
