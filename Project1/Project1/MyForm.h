@@ -35,14 +35,22 @@ namespace Project1 {
 				delete components;
 			}
 		}
-	private: System::Windows::Forms::Button^  button1;
-	private: System::Windows::Forms::Button^  button2;
-	private: System::Windows::Forms::Button^  button3;
-	private: System::Windows::Forms::Button^  button4;
-	private: System::Windows::Forms::Button^  button5;
-	private: System::Windows::Forms::PictureBox^  pictureBox1;
-	private: System::Windows::Forms::Button^  button6;
-	private: System::Windows::Forms::Button^  button7;
+	private: System::Windows::Forms::Button^  btnPassSec;
+	private: System::Windows::Forms::Button^  btnAntiVirus;
+	protected:
+
+
+	private: System::Windows::Forms::Button^  btnSpamEmail;
+
+	private: System::Windows::Forms::Button^  btnRetailBanking;
+
+
+
+
+	private: System::Windows::Forms::Button^  btnQuiz;
+	private: System::Windows::Forms::Button^  btnExit;
+
+
 	protected:
 
 	private:
@@ -58,125 +66,98 @@ namespace Project1 {
 		/// </summary>
 		void InitializeComponent(void)
 		{
-			System::ComponentModel::ComponentResourceManager^  resources = (gcnew System::ComponentModel::ComponentResourceManager(MyForm::typeid));
-			this->button1 = (gcnew System::Windows::Forms::Button());
-			this->button2 = (gcnew System::Windows::Forms::Button());
-			this->button3 = (gcnew System::Windows::Forms::Button());
-			this->button4 = (gcnew System::Windows::Forms::Button());
-			this->button5 = (gcnew System::Windows::Forms::Button());
-			this->pictureBox1 = (gcnew System::Windows::Forms::PictureBox());
-			this->button6 = (gcnew System::Windows::Forms::Button());
-			this->button7 = (gcnew System::Windows::Forms::Button());
-			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pictureBox1))->BeginInit();
+			this->btnPassSec = (gcnew System::Windows::Forms::Button());
+			this->btnAntiVirus = (gcnew System::Windows::Forms::Button());
+			this->btnSpamEmail = (gcnew System::Windows::Forms::Button());
+			this->btnRetailBanking = (gcnew System::Windows::Forms::Button());
+			this->btnQuiz = (gcnew System::Windows::Forms::Button());
+			this->btnExit = (gcnew System::Windows::Forms::Button());
 			this->SuspendLayout();
 			// 
-			// button1
+			// btnPassSec
 			// 
-			this->button1->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 14.25F, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
+			this->btnPassSec->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 14.25F, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(0)));
-			this->button1->Location = System::Drawing::Point(887, 526);
-			this->button1->Name = L"button1";
-			this->button1->Size = System::Drawing::Size(275, 204);
-			this->button1->TabIndex = 0;
-			this->button1->Text = L"Password Security Checker";
-			this->button1->UseVisualStyleBackColor = true;
-			this->button1->Click += gcnew System::EventHandler(this, &MyForm::button1_Click);
+			this->btnPassSec->Location = System::Drawing::Point(887, 510);
+			this->btnPassSec->Name = L"btnPassSec";
+			this->btnPassSec->Size = System::Drawing::Size(220, 197);
+			this->btnPassSec->TabIndex = 0;
+			this->btnPassSec->Text = L"Password Security Checker";
+			this->btnPassSec->UseVisualStyleBackColor = true;
+			this->btnPassSec->Click += gcnew System::EventHandler(this, &MyForm::button1_Click);
 			// 
-			// button2
+			// btnAntiVirus
 			// 
-			this->button2->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 14.25F, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
+			this->btnAntiVirus->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 14.25F, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(0)));
-			this->button2->Location = System::Drawing::Point(30, 32);
-			this->button2->Name = L"button2";
-			this->button2->Size = System::Drawing::Size(275, 204);
-			this->button2->TabIndex = 1;
-			this->button2->Text = L"Antivirus and Malware";
-			this->button2->UseVisualStyleBackColor = true;
+			this->btnAntiVirus->Location = System::Drawing::Point(30, 59);
+			this->btnAntiVirus->Name = L"btnAntiVirus";
+			this->btnAntiVirus->Size = System::Drawing::Size(220, 186);
+			this->btnAntiVirus->TabIndex = 1;
+			this->btnAntiVirus->Text = L"Antivirus and Malware";
+			this->btnAntiVirus->UseVisualStyleBackColor = true;
 			// 
-			// button3
+			// btnSpamEmail
 			// 
-			this->button3->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 14.25F, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
+			this->btnSpamEmail->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 14.25F, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(0)));
-			this->button3->Location = System::Drawing::Point(30, 285);
-			this->button3->Name = L"button3";
-			this->button3->Size = System::Drawing::Size(275, 204);
-			this->button3->TabIndex = 2;
-			this->button3->Text = L"Spam Emails";
-			this->button3->UseVisualStyleBackColor = true;
-			this->button3->Click += gcnew System::EventHandler(this, &MyForm::button3_Click);
+			this->btnSpamEmail->Location = System::Drawing::Point(30, 265);
+			this->btnSpamEmail->Name = L"btnSpamEmail";
+			this->btnSpamEmail->Size = System::Drawing::Size(220, 192);
+			this->btnSpamEmail->TabIndex = 2;
+			this->btnSpamEmail->Text = L"Spam Emails";
+			this->btnSpamEmail->UseVisualStyleBackColor = true;
+			this->btnSpamEmail->Click += gcnew System::EventHandler(this, &MyForm::button3_Click);
 			// 
-			// button4
+			// btnRetailBanking
 			// 
-			this->button4->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 14.25F, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
+			this->btnRetailBanking->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 14.25F, System::Drawing::FontStyle::Regular,
+				System::Drawing::GraphicsUnit::Point, static_cast<System::Byte>(0)));
+			this->btnRetailBanking->Location = System::Drawing::Point(30, 481);
+			this->btnRetailBanking->Name = L"btnRetailBanking";
+			this->btnRetailBanking->Size = System::Drawing::Size(220, 181);
+			this->btnRetailBanking->TabIndex = 3;
+			this->btnRetailBanking->Text = L"Online Retail and Banking";
+			this->btnRetailBanking->UseVisualStyleBackColor = true;
+			// 
+			// btnQuiz
+			// 
+			this->btnQuiz->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 14.25F, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(0)));
-			this->button4->Location = System::Drawing::Point(30, 526);
-			this->button4->Name = L"button4";
-			this->button4->Size = System::Drawing::Size(275, 204);
-			this->button4->TabIndex = 3;
-			this->button4->Text = L"Online Retail and Banking";
-			this->button4->UseVisualStyleBackColor = true;
+			this->btnQuiz->Location = System::Drawing::Point(887, 278);
+			this->btnQuiz->Name = L"btnQuiz";
+			this->btnQuiz->Size = System::Drawing::Size(220, 197);
+			this->btnQuiz->TabIndex = 6;
+			this->btnQuiz->Text = L"Quiz";
+			this->btnQuiz->UseVisualStyleBackColor = true;
+			this->btnQuiz->Click += gcnew System::EventHandler(this, &MyForm::button6_Click);
 			// 
-			// button5
+			// btnExit
 			// 
-			this->button5->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 14.25F, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
-				static_cast<System::Byte>(0)));
-			this->button5->Location = System::Drawing::Point(887, 32);
-			this->button5->Name = L"button5";
-			this->button5->Size = System::Drawing::Size(275, 204);
-			this->button5->TabIndex = 4;
-			this->button5->Text = L"General Security";
-			this->button5->UseVisualStyleBackColor = true;
-			// 
-			// pictureBox1
-			// 
-			this->pictureBox1->Image = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"pictureBox1.Image")));
-			this->pictureBox1->Location = System::Drawing::Point(347, 190);
-			this->pictureBox1->Name = L"pictureBox1";
-			this->pictureBox1->Size = System::Drawing::Size(499, 367);
-			this->pictureBox1->TabIndex = 5;
-			this->pictureBox1->TabStop = false;
-			// 
-			// button6
-			// 
-			this->button6->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 14.25F, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
-				static_cast<System::Byte>(0)));
-			this->button6->Location = System::Drawing::Point(887, 276);
-			this->button6->Name = L"button6";
-			this->button6->Size = System::Drawing::Size(275, 204);
-			this->button6->TabIndex = 6;
-			this->button6->Text = L"Quiz";
-			this->button6->UseVisualStyleBackColor = true;
-			this->button6->Click += gcnew System::EventHandler(this, &MyForm::button6_Click);
-			// 
-			// button7
-			// 
-			this->button7->Font = (gcnew System::Drawing::Font(L"·s²Ó©úÅé", 27.75F, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
+			this->btnExit->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 27.75F, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(136)));
-			this->button7->Location = System::Drawing::Point(557, 668);
-			this->button7->Name = L"button7";
-			this->button7->Size = System::Drawing::Size(126, 62);
-			this->button7->TabIndex = 7;
-			this->button7->Text = L"EXIT";
-			this->button7->UseVisualStyleBackColor = true;
-			this->button7->Click += gcnew System::EventHandler(this, &MyForm::button7_Click);
+			this->btnExit->Location = System::Drawing::Point(540, 133);
+			this->btnExit->Name = L"btnExit";
+			this->btnExit->Size = System::Drawing::Size(126, 67);
+			this->btnExit->TabIndex = 7;
+			this->btnExit->Text = L"EXIT";
+			this->btnExit->UseVisualStyleBackColor = true;
+			this->btnExit->Click += gcnew System::EventHandler(this, &MyForm::button7_Click);
 			// 
 			// MyForm
 			// 
-			this->AutoScaleDimensions = System::Drawing::SizeF(6, 12);
+			this->AutoScaleDimensions = System::Drawing::SizeF(6, 13);
 			this->AutoScaleMode = System::Windows::Forms::AutoScaleMode::Font;
-			this->ClientSize = System::Drawing::Size(1184, 741);
-			this->Controls->Add(this->button7);
-			this->Controls->Add(this->button6);
-			this->Controls->Add(this->pictureBox1);
-			this->Controls->Add(this->button5);
-			this->Controls->Add(this->button4);
-			this->Controls->Add(this->button3);
-			this->Controls->Add(this->button2);
-			this->Controls->Add(this->button1);
+			this->ClientSize = System::Drawing::Size(1135, 741);
+			this->Controls->Add(this->btnExit);
+			this->Controls->Add(this->btnQuiz);
+			this->Controls->Add(this->btnRetailBanking);
+			this->Controls->Add(this->btnSpamEmail);
+			this->Controls->Add(this->btnAntiVirus);
+			this->Controls->Add(this->btnPassSec);
 			this->Name = L"MyForm";
 			this->StartPosition = System::Windows::Forms::FormStartPosition::CenterScreen;
 			this->Text = L"Keeping Safe Online Tutorials";
-			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pictureBox1))->EndInit();
 			this->ResumeLayout(false);
 
 		}
