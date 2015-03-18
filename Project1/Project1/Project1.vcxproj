@@ -142,6 +142,9 @@
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
+    <EmbeddedResource Include="Antivirus.resx">
+      <DependentUpon>Antivirus.h</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="frmQuiz.resx">
       <DependentUpon>frmQuiz.h</DependentUpon>
     </EmbeddedResource>
