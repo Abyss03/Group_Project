@@ -74,7 +74,10 @@ namespace Project1 {
 			this->btnQuiz = (gcnew System::Windows::Forms::Button());
 			this->btnExit = (gcnew System::Windows::Forms::Button());
 			this->SuspendLayout();
-			this->btnPassSec->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 14.25, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
+			// 
+			// btnPassSec
+			// 
+			this->btnPassSec->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 14.25F, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(0)));
 			this->btnPassSec->Location = System::Drawing::Point(887, 510);
 			this->btnPassSec->Name = L"btnPassSec";
@@ -83,7 +86,10 @@ namespace Project1 {
 			this->btnPassSec->Text = L"Password Security Checker";
 			this->btnPassSec->UseVisualStyleBackColor = true;
 			this->btnPassSec->Click += gcnew System::EventHandler(this, &MyForm::button1_Click);
-			this->btnAntiVirus->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 14.25, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
+			// 
+			// btnAntiVirus
+			// 
+			this->btnAntiVirus->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 14.25F, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(0)));
 			this->btnAntiVirus->Location = System::Drawing::Point(30, 59);
 			this->btnAntiVirus->Name = L"btnAntiVirus";
@@ -91,7 +97,11 @@ namespace Project1 {
 			this->btnAntiVirus->TabIndex = 1;
 			this->btnAntiVirus->Text = L"Antivirus and Malware";
 			this->btnAntiVirus->UseVisualStyleBackColor = true;
-			this->btnSpamEmail->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 14.25, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
+			this->btnAntiVirus->Click += gcnew System::EventHandler(this, &MyForm::btnAntiVirus_Click);
+			// 
+			// btnSpamEmail
+			// 
+			this->btnSpamEmail->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 14.25F, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(0)));
 			this->btnSpamEmail->Location = System::Drawing::Point(30, 265);
 			this->btnSpamEmail->Name = L"btnSpamEmail";
@@ -100,7 +110,10 @@ namespace Project1 {
 			this->btnSpamEmail->Text = L"Spam Emails";
 			this->btnSpamEmail->UseVisualStyleBackColor = true;
 			this->btnSpamEmail->Click += gcnew System::EventHandler(this, &MyForm::button3_Click);
-			this->btnRetailBanking->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 14.25, System::Drawing::FontStyle::Regular,
+			// 
+			// btnRetailBanking
+			// 
+			this->btnRetailBanking->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 14.25F, System::Drawing::FontStyle::Regular,
 				System::Drawing::GraphicsUnit::Point, static_cast<System::Byte>(0)));
 			this->btnRetailBanking->Location = System::Drawing::Point(30, 481);
 			this->btnRetailBanking->Name = L"btnRetailBanking";
@@ -108,7 +121,10 @@ namespace Project1 {
 			this->btnRetailBanking->TabIndex = 3;
 			this->btnRetailBanking->Text = L"Online Retail and Banking";
 			this->btnRetailBanking->UseVisualStyleBackColor = true;
-			this->btnQuiz->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 14.25, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
+			// 
+			// btnQuiz
+			// 
+			this->btnQuiz->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 14.25F, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(0)));
 			this->btnQuiz->Location = System::Drawing::Point(887, 278);
 			this->btnQuiz->Name = L"btnQuiz";
@@ -117,7 +133,10 @@ namespace Project1 {
 			this->btnQuiz->Text = L"Quiz";
 			this->btnQuiz->UseVisualStyleBackColor = true;
 			this->btnQuiz->Click += gcnew System::EventHandler(this, &MyForm::button6_Click);
-			this->btnExit->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 27.75, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
+			// 
+			// btnExit
+			// 
+			this->btnExit->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 27.75F, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(136)));
 			this->btnExit->Location = System::Drawing::Point(540, 133);
 			this->btnExit->Name = L"btnExit";
@@ -126,6 +145,9 @@ namespace Project1 {
 			this->btnExit->Text = L"EXIT";
 			this->btnExit->UseVisualStyleBackColor = true;
 			this->btnExit->Click += gcnew System::EventHandler(this, &MyForm::button7_Click);
+			// 
+			// MyForm
+			// 
 			this->AutoScaleDimensions = System::Drawing::SizeF(6, 13);
 			this->AutoScaleMode = System::Windows::Forms::AutoScaleMode::Font;
 			this->ClientSize = System::Drawing::Size(1135, 741);
@@ -155,6 +177,8 @@ private: System::Void button3_Click(System::Object^  sender, System::EventArgs^ 
 }
 private: System::Void button7_Click(System::Object^  sender, System::EventArgs^  e) {
 	Application::Exit();
+}
+private: System::Void btnAntiVirus_Click(System::Object^  sender, System::EventArgs^  e) {
 }
 };
 }
