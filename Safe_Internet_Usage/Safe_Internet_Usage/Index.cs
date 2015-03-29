@@ -47,7 +47,7 @@ namespace Safe_Internet_Usage
 
         private void button5_Click(object sender, EventArgs e)
         {
-            Quiz quizshow = new Quiz();
+            frmQuiz quizshow = new frmQuiz();
             quizshow.Show();
         }
 
@@ -61,6 +61,36 @@ namespace Safe_Internet_Usage
         {
             Password_Checker checkershow = new Password_Checker();
             checkershow.Show();
+        }
+
+        //Following three methods control the button Enter and Leave events
+        private void btnEnter(object sender, EventArgs e)
+        {
+            try 
+            {
+                Button b = (Button)sender;
+                b.BackColor = Color.Green;
+            }
+            catch { } //catch invalid exceptions
+        }
+        private void btnLeave(object sender, EventArgs e)
+        {
+            try 
+            {
+                Button b = (Button)sender;
+                b.BackColor = Color.White;
+            }
+            catch { } //catch invalid exceptions
+        }
+
+        private void btnExitEnter (object sender, EventArgs e)
+        {
+            try
+            {
+                Button b = (Button)sender;
+                b.BackColor = Color.Red;
+            }
+            catch { } //catch invalid exceptions
         }
     }
 }

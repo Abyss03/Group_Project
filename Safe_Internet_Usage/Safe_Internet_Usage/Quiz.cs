@@ -10,16 +10,50 @@ using System.Windows.Forms;
 
 namespace Safe_Internet_Usage
 {
-    public partial class Quiz : Form
+    public partial class frmQuiz : Form
     {
-        public Quiz()
+        public frmQuiz()
         {
             InitializeComponent();
         }
 
-        private void button1_Click(object sender, EventArgs e)
+        private void btnExit(object sender, EventArgs e)
         {
             this.Close();
+        }
+
+        private void frmQuiz_Load(object sender, EventArgs e)
+        {
+
+        }
+        //Following three methods control the button Enter and Leave events
+        private void btnEnter(object sender, EventArgs e)
+        {
+            try
+            {
+                Button b = (Button)sender;
+                b.BackColor = Color.Green;
+            }
+            catch { } //catch invalid exceptions
+        }
+        private void btnLeave(object sender, EventArgs e)
+        {
+            try
+            {
+                Button b = (Button)sender;
+                b.BackColor = Color.White;
+            }
+            catch { } //catch invalid exceptions
+        }
+
+        private void btnExitEnter(object sender, EventArgs e)
+        {
+            try
+            {
+                Button b = (Button)sender;
+                b.BackColor = Color.Red;
+            }
+            catch { } //catch invalid exceptions
         }
     }
 }
