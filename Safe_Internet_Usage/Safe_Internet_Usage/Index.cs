@@ -62,5 +62,11 @@ namespace Safe_Internet_Usage
             Password_Checker checkershow = new Password_Checker();
             checkershow.Show();
         }
+
+        private void button8_Click(object sender, EventArgs e)
+        {
+            PW_Generator PWgen = new PW_Generator();
+            PWgen.Show();
+        }
     }
 }
