@@ -12,14 +12,23 @@ namespace Safe_Internet_Usage
 {
     public partial class frmQuiz : Form
     {
+        string[] questions = new string[]
+        {
+            "What is 9 cubed?", "What is 6+3?", 
+            "What type of animal is tuna sandwiches made from?",
+            "What is 18 backwards?"
+        };
+
+        string[] answers = new string[] 
+        {
+        "9", "81", "729", "2", 
+        "4", "2", "9", "1", 
+        "zebra", "aardvark", "fish", "gnu", 
+        "31", "81", "91", "88"
+        };
         public frmQuiz()
         {
             InitializeComponent();
-        }
-
-        private void btnExit(object sender, EventArgs e)
-        {
-            this.Close();
         }
 
         private void frmQuiz_Load(object sender, EventArgs e)
@@ -54,6 +63,18 @@ namespace Safe_Internet_Usage
                 b.BackColor = Color.Red;
             }
             catch { } //catch invalid exceptions
+        }
+
+        private void btnPlay_Click(object sender, EventArgs e)
+        {
+            
+            this.Visible = false;
+
+        }
+
+        private void btnExit_Click(object sender, EventArgs e)
+        {
+            this.Close();
         }
     }
 }

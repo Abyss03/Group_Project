@@ -171,35 +171,35 @@
     <value>3</value>
   </data>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="btnHTP.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+  <data name="btnSubmit.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
-  <data name="btnHTP.Location" type="System.Drawing.Point, System.Drawing">
+  <data name="btnSubmit.Location" type="System.Drawing.Point, System.Drawing">
     <value>393, 299</value>
   </data>
-  <data name="btnHTP.Size" type="System.Drawing.Size, System.Drawing">
+  <data name="btnSubmit.Size" type="System.Drawing.Size, System.Drawing">
     <value>124, 38</value>
   </data>
-  <data name="btnHTP.TabIndex" type="System.Int32, mscorlib">
+  <data name="btnSubmit.TabIndex" type="System.Int32, mscorlib">
     <value>2</value>
   </data>
-  <data name="btnHTP.Text" xml:space="preserve">
-    <value>How to Play</value>
+  <data name="btnSubmit.Text" xml:space="preserve">
+    <value>Submit</value>
   </data>
-  <data name="&gt;&gt;btnHTP.Name" xml:space="preserve">
-    <value>btnHTP</value>
+  <data name="&gt;&gt;btnSubmit.Name" xml:space="preserve">
+    <value>btnSubmit</value>
   </data>
-  <data name="&gt;&gt;btnHTP.Type" xml:space="preserve">
+  <data name="&gt;&gt;btnSubmit.Type" xml:space="preserve">
     <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;btnHTP.Parent" xml:space="preserve">
+  <data name="&gt;&gt;btnSubmit.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
-  <data name="&gt;&gt;btnHTP.ZOrder" xml:space="preserve">
+  <data name="&gt;&gt;btnSubmit.ZOrder" xml:space="preserve">
     <value>2</value>
   </data>
   <data name="txtBoxQuestion.Location" type="System.Drawing.Point, System.Drawing">
-    <value>155, 12</value>
+    <value>43, 12</value>
   </data>
   <data name="txtBoxQuestion.Multiline" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -222,25 +222,124 @@
   <data name="&gt;&gt;txtBoxQuestion.ZOrder" xml:space="preserve">
     <value>1</value>
   </data>
-  <data name="txtBoxAnswer.Location" type="System.Drawing.Point, System.Drawing">
-    <value>155, 211</value>
+  <data name="radD.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
   </data>
-  <data name="txtBoxAnswer.Size" type="System.Drawing.Size, System.Drawing">
-    <value>362, 20</value>
+  <data name="radD.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 149</value>
   </data>
-  <data name="txtBoxAnswer.TabIndex" type="System.Int32, mscorlib">
-    <value>4</value>
+  <data name="radD.Size" type="System.Drawing.Size, System.Drawing">
+    <value>14, 13</value>
   </data>
-  <data name="&gt;&gt;txtBoxAnswer.Name" xml:space="preserve">
-    <value>txtBoxAnswer</value>
+  <data name="radD.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
   </data>
-  <data name="&gt;&gt;txtBoxAnswer.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="&gt;&gt;radD.Name" xml:space="preserve">
+    <value>radD</value>
   </data>
-  <data name="&gt;&gt;txtBoxAnswer.Parent" xml:space="preserve">
+  <data name="&gt;&gt;radD.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;radD.Parent" xml:space="preserve">
+    <value>grpAnswer</value>
+  </data>
+  <data name="&gt;&gt;radD.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="radC.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="radC.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 106</value>
+  </data>
+  <data name="radC.Size" type="System.Drawing.Size, System.Drawing">
+    <value>14, 13</value>
+  </data>
+  <data name="radC.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;radC.Name" xml:space="preserve">
+    <value>radC</value>
+  </data>
+  <data name="&gt;&gt;radC.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;radC.Parent" xml:space="preserve">
+    <value>grpAnswer</value>
+  </data>
+  <data name="&gt;&gt;radC.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="radB.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="radB.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 64</value>
+  </data>
+  <data name="radB.Size" type="System.Drawing.Size, System.Drawing">
+    <value>14, 13</value>
+  </data>
+  <data name="radB.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;radB.Name" xml:space="preserve">
+    <value>radB</value>
+  </data>
+  <data name="&gt;&gt;radB.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;radB.Parent" xml:space="preserve">
+    <value>grpAnswer</value>
+  </data>
+  <data name="&gt;&gt;radB.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="radA.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="radA.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 19</value>
+  </data>
+  <data name="radA.Size" type="System.Drawing.Size, System.Drawing">
+    <value>14, 13</value>
+  </data>
+  <data name="radA.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;radA.Name" xml:space="preserve">
+    <value>radA</value>
+  </data>
+  <data name="&gt;&gt;radA.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;radA.Parent" xml:space="preserve">
+    <value>grpAnswer</value>
+  </data>
+  <data name="&gt;&gt;radA.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="grpAnswer.Location" type="System.Drawing.Point, System.Drawing">
+    <value>418, 12</value>
+  </data>
+  <data name="grpAnswer.Size" type="System.Drawing.Size, System.Drawing">
+    <value>155, 176</value>
+  </data>
+  <data name="grpAnswer.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="grpAnswer.Text" xml:space="preserve">
+    <value>groupBox1</value>
+  </data>
+  <data name="&gt;&gt;grpAnswer.Name" xml:space="preserve">
+    <value>grpAnswer</value>
+  </data>
+  <data name="&gt;&gt;grpAnswer.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;grpAnswer.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
-  <data name="&gt;&gt;txtBoxAnswer.ZOrder" xml:space="preserve">
+  <data name="&gt;&gt;grpAnswer.ZOrder" xml:space="preserve">
     <value>0</value>
   </data>
   <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
