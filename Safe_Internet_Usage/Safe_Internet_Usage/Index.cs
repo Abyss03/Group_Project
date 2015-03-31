@@ -63,12 +63,13 @@ namespace Safe_Internet_Usage
             checkershow.Show();
         }
 
-<<<<<<< HEAD
+
         private void button8_Click(object sender, EventArgs e)
         {
             PW_Generator PWgen = new PW_Generator();
             PWgen.Show();
-=======
+        }
+
         //Following three methods control the button Enter and Leave events
         private void btnEnter(object sender, EventArgs e)
         {
@@ -97,7 +98,7 @@ namespace Safe_Internet_Usage
                 b.BackColor = Color.Red;
             }
             catch { } //catch invalid exceptions
->>>>>>> origin/master
+
         }
     }
 }

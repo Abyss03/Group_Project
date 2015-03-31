@@ -95,21 +95,6 @@
             this.button4.Text = "Exit";
             this.button4.UseVisualStyleBackColor = false;
             this.button4.Click += new System.EventHandler(this.button4_Click);
-<<<<<<< HEAD
-            // 
-            // button5
-            // 
-            this.button5.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button5.Location = new System.Drawing.Point(705, 86);
-            this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(200, 129);
-            this.button5.TabIndex = 4;
-            this.button5.Text = "Quiz";
-            this.button5.UseVisualStyleBackColor = true;
-            this.button5.Click += new System.EventHandler(this.button5_Click);
-=======
-            this.button4.MouseEnter += new System.EventHandler(this.btnExitEnter);
-            this.button4.MouseLeave += new System.EventHandler(this.btnLeave);
             // 
             // btnQuiz
             // 
@@ -125,7 +110,6 @@
             this.btnQuiz.Click += new System.EventHandler(this.button5_Click);
             this.btnQuiz.MouseEnter += new System.EventHandler(this.btnEnter);
             this.btnQuiz.MouseLeave += new System.EventHandler(this.btnLeave);
->>>>>>> origin/master
             // 
             // button6
             // 
@@ -172,13 +156,13 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-<<<<<<< HEAD
+
             this.ClientSize = new System.Drawing.Size(1184, 684);
             this.Controls.Add(this.button8);
-=======
+
             this.BackColor = System.Drawing.SystemColors.ControlLightLight;
             this.ClientSize = new System.Drawing.Size(1025, 705);
->>>>>>> origin/master
+
             this.Controls.Add(this.button7);
             this.Controls.Add(this.button6);
             this.Controls.Add(this.btnQuiz);
