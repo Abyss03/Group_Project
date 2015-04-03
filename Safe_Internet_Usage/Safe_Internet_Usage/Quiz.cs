@@ -27,21 +27,30 @@ namespace Safe_Internet_Usage
             return "";
         }
         
-        string[] questions = new string[]//Array of questions
+        string[] questions = new string[]//Array of questions passed to the question label
         {
             "What is Malware?", "What is Adware?", "What is a computer virus?",
-            "What is phishing?"
+            "What is Phishing?", "How do you know when a Webpage is secure", "Which of these passwords is the most secure?",
+            "Where can you change your security settings? (Windows)","How can you secure your Wireless Internet connections"
         };
 
         string[] answers = new string[] //Array of answers passed to the radio button
         {
-        "Sofware Developer", "", "Malicious Software", "", 
-        "", "", "", "Malicous pop up advertisments", 
-        "", "", "", "A malicious self replicating program", 
-        "", "", "Fraudulent Email Scams", ""
+        "Sofware Developer", "Skype", "Malicious Software", "Root Kit", 
+        "Advertising", "Expansion Packs", "Corrupt Data", "Malicous Pop-Up Advertisments", 
+        "A Worm", "WikiLeaks", "Microwave", "A Malicious Self Replicating Program", 
+        "A File Type", "Identity Theft", "Fraudulent Email Scams", "Fishing Website",
+        "HTTPS and a Padlock Icon", "A Pop-up Window", "Ask Jeeves Icon", "Incognito Window",
+        "password", "P_55worD", "pass_word", "PASSWORD",
+        "Control Panel", "Security Centre", "Search", "Internet Explorer",
+        "Do not broadcast your network name", "Encrypt the network","Only let known devices connect", "All the above"
+        
         };
         string[] quizAnswers = new string[]//The correct answer compared to the users input
-        { "Malicious Software", "Malicous pop up advertisments","A malicious self replicating program","Fraudulent Email Scams"};
+        { 
+        "Malicious Software", "Malicous Pop-Up Advertisments","A Malicious Self Replicating Program",
+        "Fraudulent Email Scams","HTTPS and a Padlock Icon","P_55worD","Security Centre","All the above"
+        };
         public frmQuiz()
         {
             InitializeComponent();
