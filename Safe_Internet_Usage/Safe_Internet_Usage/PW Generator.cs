@@ -119,11 +119,6 @@ namespace Safe_Internet_Usage
 
         }
 
-        private void PW_Generator_Load(object sender, EventArgs e)
-        {
-
-        }
-
 
 
     }

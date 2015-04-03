@@ -32,14 +32,12 @@
             this.btnExit = new System.Windows.Forms.Button();
             this.btnPlay = new System.Windows.Forms.Button();
             this.btnSubmit = new System.Windows.Forms.Button();
+            this.txtBoxQuestion = new System.Windows.Forms.TextBox();
             this.grpAnswer = new System.Windows.Forms.GroupBox();
-            this.radD = new System.Windows.Forms.RadioButton();
-            this.radC = new System.Windows.Forms.RadioButton();
-            this.radB = new System.Windows.Forms.RadioButton();
             this.radA = new System.Windows.Forms.RadioButton();
-            this.lblQues = new System.Windows.Forms.Label();
-            this.lblScr = new System.Windows.Forms.Label();
-            this.lblTag = new System.Windows.Forms.Label();
+            this.radB = new System.Windows.Forms.RadioButton();
+            this.radC = new System.Windows.Forms.RadioButton();
+            this.radD = new System.Windows.Forms.RadioButton();
             this.grpAnswer.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -66,9 +64,13 @@
             resources.ApplyResources(this.btnSubmit, "btnSubmit");
             this.btnSubmit.Name = "btnSubmit";
             this.btnSubmit.UseVisualStyleBackColor = true;
-            this.btnSubmit.Click += new System.EventHandler(this.btnSubmit_Click);
             this.btnSubmit.MouseEnter += new System.EventHandler(this.btnEnter);
             this.btnSubmit.MouseLeave += new System.EventHandler(this.btnLeave);
+            // 
+            // txtBoxQuestion
+            // 
+            resources.ApplyResources(this.txtBoxQuestion, "txtBoxQuestion");
+            this.txtBoxQuestion.Name = "txtBoxQuestion";
             // 
             // grpAnswer
             // 
@@ -80,19 +82,12 @@
             this.grpAnswer.Name = "grpAnswer";
             this.grpAnswer.TabStop = false;
             // 
-            // radD
+            // radA
             // 
-            resources.ApplyResources(this.radD, "radD");
-            this.radD.Name = "radD";
-            this.radD.TabStop = true;
-            this.radD.UseVisualStyleBackColor = true;
-            // 
-            // radC
-            // 
-            resources.ApplyResources(this.radC, "radC");
-            this.radC.Name = "radC";
-            this.radC.TabStop = true;
-            this.radC.UseVisualStyleBackColor = true;
+            resources.ApplyResources(this.radA, "radA");
+            this.radA.Name = "radA";
+            this.radA.TabStop = true;
+            this.radA.UseVisualStyleBackColor = true;
             // 
             // radB
             // 
@@ -101,37 +96,27 @@
             this.radB.TabStop = true;
             this.radB.UseVisualStyleBackColor = true;
             // 
-            // radA
+            // radC
             // 
-            resources.ApplyResources(this.radA, "radA");
-            this.radA.Name = "radA";
-            this.radA.TabStop = true;
-            this.radA.UseVisualStyleBackColor = true;
+            resources.ApplyResources(this.radC, "radC");
+            this.radC.Name = "radC";
+            this.radC.TabStop = true;
+            this.radC.UseVisualStyleBackColor = true;
             // 
-            // lblQues
+            // radD
             // 
-            resources.ApplyResources(this.lblQues, "lblQues");
-            this.lblQues.Name = "lblQues";
-            // 
-            // lblScr
-            // 
-            resources.ApplyResources(this.lblScr, "lblScr");
-            this.lblScr.Name = "lblScr";
-            // 
-            // lblTag
-            // 
-            resources.ApplyResources(this.lblTag, "lblTag");
-            this.lblTag.Name = "lblTag";
+            resources.ApplyResources(this.radD, "radD");
+            this.radD.Name = "radD";
+            this.radD.TabStop = true;
+            this.radD.UseVisualStyleBackColor = true;
             // 
             // frmQuiz
             // 
             resources.ApplyResources(this, "$this");
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ControlLightLight;
-            this.Controls.Add(this.lblTag);
-            this.Controls.Add(this.lblScr);
-            this.Controls.Add(this.lblQues);
             this.Controls.Add(this.grpAnswer);
+            this.Controls.Add(this.txtBoxQuestion);
             this.Controls.Add(this.btnSubmit);
             this.Controls.Add(this.btnPlay);
             this.Controls.Add(this.btnExit);
@@ -149,13 +134,11 @@
         private System.Windows.Forms.Button btnExit;
         private System.Windows.Forms.Button btnPlay;
         private System.Windows.Forms.Button btnSubmit;
+        private System.Windows.Forms.TextBox txtBoxQuestion;
         private System.Windows.Forms.GroupBox grpAnswer;
         private System.Windows.Forms.RadioButton radD;
         private System.Windows.Forms.RadioButton radC;
         private System.Windows.Forms.RadioButton radB;
         private System.Windows.Forms.RadioButton radA;
-        private System.Windows.Forms.Label lblQues;
-        private System.Windows.Forms.Label lblScr;
-        private System.Windows.Forms.Label lblTag;
     }
 }
