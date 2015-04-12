@@ -78,7 +78,7 @@ namespace PasswordMeter
                     }
 
                     // Punctuation Counter 
-                    if (myCharacter == '-' || myCharacter == '\'' || myCharacter == '\"' || myCharacter == ':' || myCharacter == ';' || myCharacter == '&' || myCharacter == '(' || myCharacter == ')' || myCharacter == '.')
+                    if (myCharacter == '-' || myCharacter == '\'' || myCharacter == '\"' || myCharacter == ':' || myCharacter == ';' || myCharacter == '&' || myCharacter == '(' || myCharacter == ')' || myCharacter == '.' || myCharacter == '!')
                     {
                         punctuationCounter++;
                     }
@@ -107,7 +107,7 @@ namespace PasswordMeter
 
                     if (characterCount >= 4 && characterCount <= 10)
                     {
-                        pictureBox1.Image = Image.FromFile("yellow.jpg");
+                        //pictureBox1.Image = Image.FromFile("yellow.jpg");
 
                         if (numberCounter == 0)
                         {
