@@ -21,5 +21,27 @@ namespace Safe_Internet_Usage
         {
             this.Close();
         }
+
+        private void axShockwaveFlash1_Enter(object sender, EventArgs e)
+        {
+
+        }
+
+        private void axWindowsMediaPlayer1_Enter(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            List_of_options ss = new List_of_options();
+            ss.Show();
+        }
+        
+
+      
+ 
+        
+        }
     }
-}
+

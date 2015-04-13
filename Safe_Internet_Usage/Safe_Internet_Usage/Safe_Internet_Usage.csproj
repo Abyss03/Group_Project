@@ -56,12 +56,28 @@
     <Compile Include="Banking_And_Retail.Designer.cs">
       <DependentUpon>Banking_And_Retail.cs</DependentUpon>
     </Compile>
+    <Compile Include="Https.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Https.Designer.cs" />
     <Compile Include="Index.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Index.Designer.cs">
       <DependentUpon>Index.cs</DependentUpon>
     </Compile>
+    <Compile Include="List of options.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="List of options.Designer.cs" />
+    <Compile Include="Log out Sign off.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Log out Sign off.Designer.cs" />
+    <Compile Include="online payment.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="online payment.Designer.cs" />
     <Compile Include="Password_Checker.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -100,9 +116,13 @@
     <EmbeddedResource Include="Banking_And_Retail.resx">
       <DependentUpon>Banking_And_Retail.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Https.resx" />
     <EmbeddedResource Include="Index.resx">
       <DependentUpon>Index.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="List of options.resx" />
+    <EmbeddedResource Include="Log out Sign off.resx" />
+    <EmbeddedResource Include="online payment.resx" />
     <EmbeddedResource Include="Password_Checker.resx">
       <DependentUpon>Password_Checker.cs</DependentUpon>
     </EmbeddedResource>
