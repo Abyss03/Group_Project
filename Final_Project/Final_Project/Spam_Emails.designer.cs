@@ -119,7 +119,7 @@
             this.pictureBox1.Location = new System.Drawing.Point(0, 0);
             this.pictureBox1.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(1002, 712);
+            this.pictureBox1.Size = new System.Drawing.Size(1776, 1140);
             this.pictureBox1.TabIndex = 1;
             this.pictureBox1.TabStop = false;
             // 
@@ -133,7 +133,7 @@
             this.panel1.Location = new System.Drawing.Point(0, 0);
             this.panel1.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(1002, 712);
+            this.panel1.Size = new System.Drawing.Size(1776, 1140);
             this.panel1.TabIndex = 2;
             this.panel1.Visible = false;
             // 
@@ -147,7 +147,7 @@
             this.panel2.Location = new System.Drawing.Point(0, 0);
             this.panel2.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(1002, 712);
+            this.panel2.Size = new System.Drawing.Size(1776, 1140);
             this.panel2.TabIndex = 3;
             this.panel2.Visible = false;
             // 
@@ -161,7 +161,7 @@
             this.panel3.Location = new System.Drawing.Point(0, 0);
             this.panel3.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(1002, 712);
+            this.panel3.Size = new System.Drawing.Size(1776, 1140);
             this.panel3.TabIndex = 5;
             this.panel3.Visible = false;
             // 
@@ -175,7 +175,7 @@
             this.panel4.Location = new System.Drawing.Point(0, 0);
             this.panel4.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.panel4.Name = "panel4";
-            this.panel4.Size = new System.Drawing.Size(1002, 712);
+            this.panel4.Size = new System.Drawing.Size(1776, 1140);
             this.panel4.TabIndex = 5;
             this.panel4.Visible = false;
             // 
@@ -189,7 +189,7 @@
             this.panel5.Location = new System.Drawing.Point(0, 0);
             this.panel5.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.panel5.Name = "panel5";
-            this.panel5.Size = new System.Drawing.Size(1002, 712);
+            this.panel5.Size = new System.Drawing.Size(1776, 1140);
             this.panel5.TabIndex = 5;
             this.panel5.Visible = false;
             // 
@@ -203,7 +203,7 @@
             this.panel6.Location = new System.Drawing.Point(0, 0);
             this.panel6.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.panel6.Name = "panel6";
-            this.panel6.Size = new System.Drawing.Size(1002, 712);
+            this.panel6.Size = new System.Drawing.Size(1776, 1140);
             this.panel6.TabIndex = 5;
             this.panel6.Visible = false;
             // 
@@ -217,7 +217,7 @@
             this.panel7.Location = new System.Drawing.Point(0, 0);
             this.panel7.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.panel7.Name = "panel7";
-            this.panel7.Size = new System.Drawing.Size(1002, 712);
+            this.panel7.Size = new System.Drawing.Size(1776, 1140);
             this.panel7.TabIndex = 5;
             this.panel7.Visible = false;
             // 
@@ -231,7 +231,7 @@
             this.panel8.Location = new System.Drawing.Point(0, 0);
             this.panel8.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.panel8.Name = "panel8";
-            this.panel8.Size = new System.Drawing.Size(1002, 712);
+            this.panel8.Size = new System.Drawing.Size(1776, 1140);
             this.panel8.TabIndex = 5;
             this.panel8.Visible = false;
             // 
@@ -245,7 +245,7 @@
             this.panel9.Location = new System.Drawing.Point(0, 0);
             this.panel9.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.panel9.Name = "panel9";
-            this.panel9.Size = new System.Drawing.Size(1002, 712);
+            this.panel9.Size = new System.Drawing.Size(1776, 1140);
             this.panel9.TabIndex = 5;
             this.panel9.Visible = false;
             // 
@@ -259,7 +259,7 @@
             this.panel10.Location = new System.Drawing.Point(0, 0);
             this.panel10.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.panel10.Name = "panel10";
-            this.panel10.Size = new System.Drawing.Size(1002, 712);
+            this.panel10.Size = new System.Drawing.Size(1776, 1140);
             this.panel10.TabIndex = 5;
             this.panel10.Visible = false;
             // 
@@ -271,14 +271,14 @@
             this.panel11.Location = new System.Drawing.Point(0, 0);
             this.panel11.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.panel11.Name = "panel11";
-            this.panel11.Size = new System.Drawing.Size(1002, 712);
+            this.panel11.Size = new System.Drawing.Size(1776, 1140);
             this.panel11.TabIndex = 5;
             this.panel11.Visible = false;
             // 
             // button22
             // 
             this.button22.Font = new System.Drawing.Font("PMingLiU", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.button22.Location = new System.Drawing.Point(18, 1053);
+            this.button22.Location = new System.Drawing.Point(58, 932);
             this.button22.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.button22.Name = "button22";
             this.button22.Size = new System.Drawing.Size(124, 58);
@@ -295,7 +295,7 @@
             this.pictureBox12.Location = new System.Drawing.Point(0, 0);
             this.pictureBox12.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.pictureBox12.Name = "pictureBox12";
-            this.pictureBox12.Size = new System.Drawing.Size(1002, 712);
+            this.pictureBox12.Size = new System.Drawing.Size(1776, 1140);
             this.pictureBox12.TabIndex = 0;
             this.pictureBox12.TabStop = false;
             // 
@@ -331,7 +331,7 @@
             this.pictureBox11.Location = new System.Drawing.Point(0, 0);
             this.pictureBox11.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.pictureBox11.Name = "pictureBox11";
-            this.pictureBox11.Size = new System.Drawing.Size(1002, 712);
+            this.pictureBox11.Size = new System.Drawing.Size(1776, 1140);
             this.pictureBox11.TabIndex = 0;
             this.pictureBox11.TabStop = false;
             // 
@@ -367,7 +367,7 @@
             this.pictureBox10.Location = new System.Drawing.Point(0, 0);
             this.pictureBox10.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.pictureBox10.Name = "pictureBox10";
-            this.pictureBox10.Size = new System.Drawing.Size(1002, 712);
+            this.pictureBox10.Size = new System.Drawing.Size(1776, 1140);
             this.pictureBox10.TabIndex = 0;
             this.pictureBox10.TabStop = false;
             // 
@@ -403,7 +403,7 @@
             this.pictureBox9.Location = new System.Drawing.Point(0, 0);
             this.pictureBox9.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.pictureBox9.Name = "pictureBox9";
-            this.pictureBox9.Size = new System.Drawing.Size(1002, 712);
+            this.pictureBox9.Size = new System.Drawing.Size(1776, 1140);
             this.pictureBox9.TabIndex = 0;
             this.pictureBox9.TabStop = false;
             // 
@@ -439,7 +439,7 @@
             this.pictureBox8.Location = new System.Drawing.Point(0, 0);
             this.pictureBox8.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.pictureBox8.Name = "pictureBox8";
-            this.pictureBox8.Size = new System.Drawing.Size(1002, 712);
+            this.pictureBox8.Size = new System.Drawing.Size(1776, 1140);
             this.pictureBox8.TabIndex = 0;
             this.pictureBox8.TabStop = false;
             // 
@@ -475,7 +475,7 @@
             this.pictureBox7.Location = new System.Drawing.Point(0, 0);
             this.pictureBox7.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.pictureBox7.Name = "pictureBox7";
-            this.pictureBox7.Size = new System.Drawing.Size(1002, 712);
+            this.pictureBox7.Size = new System.Drawing.Size(1776, 1140);
             this.pictureBox7.TabIndex = 0;
             this.pictureBox7.TabStop = false;
             // 
@@ -511,7 +511,7 @@
             this.pictureBox6.Location = new System.Drawing.Point(0, 0);
             this.pictureBox6.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.pictureBox6.Name = "pictureBox6";
-            this.pictureBox6.Size = new System.Drawing.Size(1002, 712);
+            this.pictureBox6.Size = new System.Drawing.Size(1776, 1140);
             this.pictureBox6.TabIndex = 0;
             this.pictureBox6.TabStop = false;
             // 
@@ -547,7 +547,7 @@
             this.pictureBox5.Location = new System.Drawing.Point(0, 0);
             this.pictureBox5.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.pictureBox5.Name = "pictureBox5";
-            this.pictureBox5.Size = new System.Drawing.Size(1002, 712);
+            this.pictureBox5.Size = new System.Drawing.Size(1776, 1140);
             this.pictureBox5.TabIndex = 0;
             this.pictureBox5.TabStop = false;
             // 
@@ -583,7 +583,7 @@
             this.pictureBox4.Location = new System.Drawing.Point(0, 0);
             this.pictureBox4.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.pictureBox4.Name = "pictureBox4";
-            this.pictureBox4.Size = new System.Drawing.Size(1002, 712);
+            this.pictureBox4.Size = new System.Drawing.Size(1776, 1140);
             this.pictureBox4.TabIndex = 0;
             this.pictureBox4.TabStop = false;
             // 
@@ -619,7 +619,7 @@
             this.pictureBox3.Location = new System.Drawing.Point(0, 0);
             this.pictureBox3.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.pictureBox3.Name = "pictureBox3";
-            this.pictureBox3.Size = new System.Drawing.Size(1002, 712);
+            this.pictureBox3.Size = new System.Drawing.Size(1776, 1140);
             this.pictureBox3.TabIndex = 0;
             this.pictureBox3.TabStop = false;
             // 
@@ -655,7 +655,7 @@
             this.pictureBox2.Location = new System.Drawing.Point(0, 0);
             this.pictureBox2.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(1002, 712);
+            this.pictureBox2.Size = new System.Drawing.Size(1776, 1140);
             this.pictureBox2.TabIndex = 0;
             this.pictureBox2.TabStop = false;
             // 
@@ -663,13 +663,12 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1002, 712);
+            this.ClientSize = new System.Drawing.Size(1776, 1140);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.pictureBox1);
             this.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.Name = "Spam_Emails";
-            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Spam_Emails";
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.panel1.ResumeLayout(false);

@@ -8,8 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-
-namespace Final_Project
+namespace Final_Project 
 {
     public partial class Spam_Emails : Form
     {
