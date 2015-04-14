@@ -23,5 +23,10 @@ namespace Safe_Internet_Usage
             newForm.Show();
             this.Close();
         }
+
+        private void pictureBox1_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

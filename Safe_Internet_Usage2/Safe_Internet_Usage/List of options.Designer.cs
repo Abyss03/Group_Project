@@ -41,7 +41,7 @@
             // btnHttps
             // 
             this.btnHttps.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnHttps.Location = new System.Drawing.Point(12, 43);
+            this.btnHttps.Location = new System.Drawing.Point(7, 93);
             this.btnHttps.Name = "btnHttps";
             this.btnHttps.Size = new System.Drawing.Size(95, 31);
             this.btnHttps.TabIndex = 0;
@@ -52,7 +52,7 @@
             // Securitycertificate
             // 
             this.Securitycertificate.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Securitycertificate.Location = new System.Drawing.Point(138, 12);
+            this.Securitycertificate.Location = new System.Drawing.Point(133, 62);
             this.Securitycertificate.Name = "Securitycertificate";
             this.Securitycertificate.Size = new System.Drawing.Size(109, 30);
             this.Securitycertificate.TabIndex = 1;
@@ -63,7 +63,7 @@
             // btnonlinepayment
             // 
             this.btnonlinepayment.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnonlinepayment.Location = new System.Drawing.Point(70, 109);
+            this.btnonlinepayment.Location = new System.Drawing.Point(65, 159);
             this.btnonlinepayment.Name = "btnonlinepayment";
             this.btnonlinepayment.Size = new System.Drawing.Size(126, 30);
             this.btnonlinepayment.TabIndex = 2;
@@ -74,7 +74,7 @@
             // btnLogoutSignoff
             // 
             this.btnLogoutSignoff.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnLogoutSignoff.Location = new System.Drawing.Point(217, 109);
+            this.btnLogoutSignoff.Location = new System.Drawing.Point(212, 159);
             this.btnLogoutSignoff.Name = "btnLogoutSignoff";
             this.btnLogoutSignoff.Size = new System.Drawing.Size(131, 30);
             this.btnLogoutSignoff.TabIndex = 3;
@@ -85,7 +85,7 @@
             // btnVirtualKeyboard
             // 
             this.btnVirtualKeyboard.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnVirtualKeyboard.Location = new System.Drawing.Point(259, 43);
+            this.btnVirtualKeyboard.Location = new System.Drawing.Point(254, 93);
             this.btnVirtualKeyboard.Name = "btnVirtualKeyboard";
             this.btnVirtualKeyboard.Size = new System.Drawing.Size(134, 31);
             this.btnVirtualKeyboard.TabIndex = 4;
