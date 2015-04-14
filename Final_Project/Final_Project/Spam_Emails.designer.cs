@@ -102,10 +102,9 @@
             // button1
             // 
             this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.Location = new System.Drawing.Point(1640, 1053);
-            this.button1.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.button1.Location = new System.Drawing.Point(1093, 684);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(118, 67);
+            this.button1.Size = new System.Drawing.Size(79, 44);
             this.button1.TabIndex = 0;
             this.button1.Text = "Next";
             this.button1.UseVisualStyleBackColor = true;
@@ -117,9 +116,8 @@
             this.pictureBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.pictureBox1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.pictureBox1.Location = new System.Drawing.Point(0, 0);
-            this.pictureBox1.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(1776, 1140);
+            this.pictureBox1.Size = new System.Drawing.Size(1184, 762);
             this.pictureBox1.TabIndex = 1;
             this.pictureBox1.TabStop = false;
             // 
@@ -131,9 +129,8 @@
             this.panel1.Controls.Add(this.pictureBox2);
             this.panel1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panel1.Location = new System.Drawing.Point(0, 0);
-            this.panel1.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(1776, 1140);
+            this.panel1.Size = new System.Drawing.Size(1184, 762);
             this.panel1.TabIndex = 2;
             this.panel1.Visible = false;
             // 
@@ -145,9 +142,8 @@
             this.panel2.Controls.Add(this.pictureBox3);
             this.panel2.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panel2.Location = new System.Drawing.Point(0, 0);
-            this.panel2.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(1776, 1140);
+            this.panel2.Size = new System.Drawing.Size(1184, 762);
             this.panel2.TabIndex = 3;
             this.panel2.Visible = false;
             // 
@@ -159,9 +155,8 @@
             this.panel3.Controls.Add(this.pictureBox4);
             this.panel3.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panel3.Location = new System.Drawing.Point(0, 0);
-            this.panel3.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(1776, 1140);
+            this.panel3.Size = new System.Drawing.Size(1184, 762);
             this.panel3.TabIndex = 5;
             this.panel3.Visible = false;
             // 
@@ -173,9 +168,8 @@
             this.panel4.Controls.Add(this.pictureBox5);
             this.panel4.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panel4.Location = new System.Drawing.Point(0, 0);
-            this.panel4.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.panel4.Name = "panel4";
-            this.panel4.Size = new System.Drawing.Size(1776, 1140);
+            this.panel4.Size = new System.Drawing.Size(1184, 762);
             this.panel4.TabIndex = 5;
             this.panel4.Visible = false;
             // 
@@ -187,9 +181,8 @@
             this.panel5.Controls.Add(this.pictureBox6);
             this.panel5.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panel5.Location = new System.Drawing.Point(0, 0);
-            this.panel5.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.panel5.Name = "panel5";
-            this.panel5.Size = new System.Drawing.Size(1776, 1140);
+            this.panel5.Size = new System.Drawing.Size(1184, 762);
             this.panel5.TabIndex = 5;
             this.panel5.Visible = false;
             // 
@@ -201,9 +194,8 @@
             this.panel6.Controls.Add(this.pictureBox7);
             this.panel6.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panel6.Location = new System.Drawing.Point(0, 0);
-            this.panel6.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.panel6.Name = "panel6";
-            this.panel6.Size = new System.Drawing.Size(1776, 1140);
+            this.panel6.Size = new System.Drawing.Size(1184, 762);
             this.panel6.TabIndex = 5;
             this.panel6.Visible = false;
             // 
@@ -215,9 +207,8 @@
             this.panel7.Controls.Add(this.pictureBox8);
             this.panel7.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panel7.Location = new System.Drawing.Point(0, 0);
-            this.panel7.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.panel7.Name = "panel7";
-            this.panel7.Size = new System.Drawing.Size(1776, 1140);
+            this.panel7.Size = new System.Drawing.Size(1184, 762);
             this.panel7.TabIndex = 5;
             this.panel7.Visible = false;
             // 
@@ -229,9 +220,8 @@
             this.panel8.Controls.Add(this.pictureBox9);
             this.panel8.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panel8.Location = new System.Drawing.Point(0, 0);
-            this.panel8.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.panel8.Name = "panel8";
-            this.panel8.Size = new System.Drawing.Size(1776, 1140);
+            this.panel8.Size = new System.Drawing.Size(1184, 762);
             this.panel8.TabIndex = 5;
             this.panel8.Visible = false;
             // 
@@ -243,9 +233,8 @@
             this.panel9.Controls.Add(this.pictureBox10);
             this.panel9.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panel9.Location = new System.Drawing.Point(0, 0);
-            this.panel9.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.panel9.Name = "panel9";
-            this.panel9.Size = new System.Drawing.Size(1776, 1140);
+            this.panel9.Size = new System.Drawing.Size(1184, 762);
             this.panel9.TabIndex = 5;
             this.panel9.Visible = false;
             // 
@@ -257,9 +246,8 @@
             this.panel10.Controls.Add(this.pictureBox11);
             this.panel10.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panel10.Location = new System.Drawing.Point(0, 0);
-            this.panel10.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.panel10.Name = "panel10";
-            this.panel10.Size = new System.Drawing.Size(1776, 1140);
+            this.panel10.Size = new System.Drawing.Size(1184, 762);
             this.panel10.TabIndex = 5;
             this.panel10.Visible = false;
             // 
@@ -269,19 +257,17 @@
             this.panel11.Controls.Add(this.pictureBox12);
             this.panel11.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panel11.Location = new System.Drawing.Point(0, 0);
-            this.panel11.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.panel11.Name = "panel11";
-            this.panel11.Size = new System.Drawing.Size(1776, 1140);
+            this.panel11.Size = new System.Drawing.Size(1184, 762);
             this.panel11.TabIndex = 5;
             this.panel11.Visible = false;
             // 
             // button22
             // 
             this.button22.Font = new System.Drawing.Font("PMingLiU", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.button22.Location = new System.Drawing.Point(58, 932);
-            this.button22.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.button22.Location = new System.Drawing.Point(39, 606);
             this.button22.Name = "button22";
-            this.button22.Size = new System.Drawing.Size(124, 58);
+            this.button22.Size = new System.Drawing.Size(83, 38);
             this.button22.TabIndex = 3;
             this.button22.Text = "Prev";
             this.button22.UseVisualStyleBackColor = true;
@@ -293,19 +279,17 @@
             this.pictureBox12.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.pictureBox12.Dock = System.Windows.Forms.DockStyle.Fill;
             this.pictureBox12.Location = new System.Drawing.Point(0, 0);
-            this.pictureBox12.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.pictureBox12.Name = "pictureBox12";
-            this.pictureBox12.Size = new System.Drawing.Size(1776, 1140);
+            this.pictureBox12.Size = new System.Drawing.Size(1184, 762);
             this.pictureBox12.TabIndex = 0;
             this.pictureBox12.TabStop = false;
             // 
             // button21
             // 
             this.button21.Font = new System.Drawing.Font("PMingLiU", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.button21.Location = new System.Drawing.Point(1634, 1062);
-            this.button21.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.button21.Location = new System.Drawing.Point(1089, 690);
             this.button21.Name = "button21";
-            this.button21.Size = new System.Drawing.Size(124, 58);
+            this.button21.Size = new System.Drawing.Size(83, 38);
             this.button21.TabIndex = 4;
             this.button21.Text = "Next";
             this.button21.UseVisualStyleBackColor = true;
@@ -314,10 +298,9 @@
             // button20
             // 
             this.button20.Font = new System.Drawing.Font("PMingLiU", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.button20.Location = new System.Drawing.Point(18, 1062);
-            this.button20.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.button20.Location = new System.Drawing.Point(12, 690);
             this.button20.Name = "button20";
-            this.button20.Size = new System.Drawing.Size(124, 58);
+            this.button20.Size = new System.Drawing.Size(83, 38);
             this.button20.TabIndex = 3;
             this.button20.Text = "Prev";
             this.button20.UseVisualStyleBackColor = true;
@@ -329,19 +312,17 @@
             this.pictureBox11.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.pictureBox11.Dock = System.Windows.Forms.DockStyle.Fill;
             this.pictureBox11.Location = new System.Drawing.Point(0, 0);
-            this.pictureBox11.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.pictureBox11.Name = "pictureBox11";
-            this.pictureBox11.Size = new System.Drawing.Size(1776, 1140);
+            this.pictureBox11.Size = new System.Drawing.Size(1184, 762);
             this.pictureBox11.TabIndex = 0;
             this.pictureBox11.TabStop = false;
             // 
             // button19
             // 
             this.button19.Font = new System.Drawing.Font("PMingLiU", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.button19.Location = new System.Drawing.Point(1623, 1053);
-            this.button19.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.button19.Location = new System.Drawing.Point(1082, 684);
             this.button19.Name = "button19";
-            this.button19.Size = new System.Drawing.Size(124, 58);
+            this.button19.Size = new System.Drawing.Size(83, 38);
             this.button19.TabIndex = 4;
             this.button19.Text = "Next";
             this.button19.UseVisualStyleBackColor = true;
@@ -350,10 +331,9 @@
             // button18
             // 
             this.button18.Font = new System.Drawing.Font("PMingLiU", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.button18.Location = new System.Drawing.Point(18, 1062);
-            this.button18.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.button18.Location = new System.Drawing.Point(12, 690);
             this.button18.Name = "button18";
-            this.button18.Size = new System.Drawing.Size(124, 58);
+            this.button18.Size = new System.Drawing.Size(83, 38);
             this.button18.TabIndex = 3;
             this.button18.Text = "Prev";
             this.button18.UseVisualStyleBackColor = true;
@@ -365,19 +345,17 @@
             this.pictureBox10.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.pictureBox10.Dock = System.Windows.Forms.DockStyle.Fill;
             this.pictureBox10.Location = new System.Drawing.Point(0, 0);
-            this.pictureBox10.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.pictureBox10.Name = "pictureBox10";
-            this.pictureBox10.Size = new System.Drawing.Size(1776, 1140);
+            this.pictureBox10.Size = new System.Drawing.Size(1184, 762);
             this.pictureBox10.TabIndex = 0;
             this.pictureBox10.TabStop = false;
             // 
             // button17
             // 
             this.button17.Font = new System.Drawing.Font("PMingLiU", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.button17.Location = new System.Drawing.Point(1623, 1053);
-            this.button17.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.button17.Location = new System.Drawing.Point(1082, 684);
             this.button17.Name = "button17";
-            this.button17.Size = new System.Drawing.Size(124, 58);
+            this.button17.Size = new System.Drawing.Size(83, 38);
             this.button17.TabIndex = 4;
             this.button17.Text = "Next";
             this.button17.UseVisualStyleBackColor = true;
@@ -386,10 +364,9 @@
             // button16
             // 
             this.button16.Font = new System.Drawing.Font("PMingLiU", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.button16.Location = new System.Drawing.Point(18, 1053);
-            this.button16.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.button16.Location = new System.Drawing.Point(12, 684);
             this.button16.Name = "button16";
-            this.button16.Size = new System.Drawing.Size(124, 58);
+            this.button16.Size = new System.Drawing.Size(83, 38);
             this.button16.TabIndex = 3;
             this.button16.Text = "Prev";
             this.button16.UseVisualStyleBackColor = true;
@@ -401,19 +378,17 @@
             this.pictureBox9.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.pictureBox9.Dock = System.Windows.Forms.DockStyle.Fill;
             this.pictureBox9.Location = new System.Drawing.Point(0, 0);
-            this.pictureBox9.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.pictureBox9.Name = "pictureBox9";
-            this.pictureBox9.Size = new System.Drawing.Size(1776, 1140);
+            this.pictureBox9.Size = new System.Drawing.Size(1184, 762);
             this.pictureBox9.TabIndex = 0;
             this.pictureBox9.TabStop = false;
             // 
             // button15
             // 
             this.button15.Font = new System.Drawing.Font("PMingLiU", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.button15.Location = new System.Drawing.Point(1634, 1062);
-            this.button15.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.button15.Location = new System.Drawing.Point(1089, 690);
             this.button15.Name = "button15";
-            this.button15.Size = new System.Drawing.Size(124, 58);
+            this.button15.Size = new System.Drawing.Size(83, 38);
             this.button15.TabIndex = 4;
             this.button15.Text = "Next";
             this.button15.UseVisualStyleBackColor = true;
@@ -422,10 +397,9 @@
             // button14
             // 
             this.button14.Font = new System.Drawing.Font("PMingLiU", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.button14.Location = new System.Drawing.Point(18, 1062);
-            this.button14.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.button14.Location = new System.Drawing.Point(12, 690);
             this.button14.Name = "button14";
-            this.button14.Size = new System.Drawing.Size(124, 58);
+            this.button14.Size = new System.Drawing.Size(83, 38);
             this.button14.TabIndex = 3;
             this.button14.Text = "Prev";
             this.button14.UseVisualStyleBackColor = true;
@@ -437,19 +411,17 @@
             this.pictureBox8.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.pictureBox8.Dock = System.Windows.Forms.DockStyle.Fill;
             this.pictureBox8.Location = new System.Drawing.Point(0, 0);
-            this.pictureBox8.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.pictureBox8.Name = "pictureBox8";
-            this.pictureBox8.Size = new System.Drawing.Size(1776, 1140);
+            this.pictureBox8.Size = new System.Drawing.Size(1184, 762);
             this.pictureBox8.TabIndex = 0;
             this.pictureBox8.TabStop = false;
             // 
             // button13
             // 
             this.button13.Font = new System.Drawing.Font("PMingLiU", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.button13.Location = new System.Drawing.Point(1623, 1053);
-            this.button13.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.button13.Location = new System.Drawing.Point(1082, 684);
             this.button13.Name = "button13";
-            this.button13.Size = new System.Drawing.Size(124, 58);
+            this.button13.Size = new System.Drawing.Size(83, 38);
             this.button13.TabIndex = 4;
             this.button13.Text = "Next";
             this.button13.UseVisualStyleBackColor = true;
@@ -458,10 +430,9 @@
             // button12
             // 
             this.button12.Font = new System.Drawing.Font("PMingLiU", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.button12.Location = new System.Drawing.Point(18, 1062);
-            this.button12.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.button12.Location = new System.Drawing.Point(12, 690);
             this.button12.Name = "button12";
-            this.button12.Size = new System.Drawing.Size(124, 58);
+            this.button12.Size = new System.Drawing.Size(83, 38);
             this.button12.TabIndex = 3;
             this.button12.Text = "Prev";
             this.button12.UseVisualStyleBackColor = true;
@@ -473,19 +444,17 @@
             this.pictureBox7.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.pictureBox7.Dock = System.Windows.Forms.DockStyle.Fill;
             this.pictureBox7.Location = new System.Drawing.Point(0, 0);
-            this.pictureBox7.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.pictureBox7.Name = "pictureBox7";
-            this.pictureBox7.Size = new System.Drawing.Size(1776, 1140);
+            this.pictureBox7.Size = new System.Drawing.Size(1184, 762);
             this.pictureBox7.TabIndex = 0;
             this.pictureBox7.TabStop = false;
             // 
             // button11
             // 
             this.button11.Font = new System.Drawing.Font("PMingLiU", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.button11.Location = new System.Drawing.Point(1634, 1062);
-            this.button11.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.button11.Location = new System.Drawing.Point(1089, 690);
             this.button11.Name = "button11";
-            this.button11.Size = new System.Drawing.Size(124, 58);
+            this.button11.Size = new System.Drawing.Size(83, 38);
             this.button11.TabIndex = 4;
             this.button11.Text = "Next";
             this.button11.UseVisualStyleBackColor = true;
@@ -494,10 +463,9 @@
             // button10
             // 
             this.button10.Font = new System.Drawing.Font("PMingLiU", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.button10.Location = new System.Drawing.Point(18, 1053);
-            this.button10.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.button10.Location = new System.Drawing.Point(12, 684);
             this.button10.Name = "button10";
-            this.button10.Size = new System.Drawing.Size(124, 58);
+            this.button10.Size = new System.Drawing.Size(83, 38);
             this.button10.TabIndex = 3;
             this.button10.Text = "Prev";
             this.button10.UseVisualStyleBackColor = true;
@@ -509,19 +477,17 @@
             this.pictureBox6.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.pictureBox6.Dock = System.Windows.Forms.DockStyle.Fill;
             this.pictureBox6.Location = new System.Drawing.Point(0, 0);
-            this.pictureBox6.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.pictureBox6.Name = "pictureBox6";
-            this.pictureBox6.Size = new System.Drawing.Size(1776, 1140);
+            this.pictureBox6.Size = new System.Drawing.Size(1184, 762);
             this.pictureBox6.TabIndex = 0;
             this.pictureBox6.TabStop = false;
             // 
             // button9
             // 
             this.button9.Font = new System.Drawing.Font("PMingLiU", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.button9.Location = new System.Drawing.Point(1634, 1062);
-            this.button9.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.button9.Location = new System.Drawing.Point(1089, 690);
             this.button9.Name = "button9";
-            this.button9.Size = new System.Drawing.Size(124, 58);
+            this.button9.Size = new System.Drawing.Size(83, 38);
             this.button9.TabIndex = 4;
             this.button9.Text = "Next";
             this.button9.UseVisualStyleBackColor = true;
@@ -530,10 +496,9 @@
             // button8
             // 
             this.button8.Font = new System.Drawing.Font("PMingLiU", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.button8.Location = new System.Drawing.Point(18, 1053);
-            this.button8.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.button8.Location = new System.Drawing.Point(12, 684);
             this.button8.Name = "button8";
-            this.button8.Size = new System.Drawing.Size(124, 58);
+            this.button8.Size = new System.Drawing.Size(83, 38);
             this.button8.TabIndex = 3;
             this.button8.Text = "Prev";
             this.button8.UseVisualStyleBackColor = true;
@@ -545,19 +510,17 @@
             this.pictureBox5.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.pictureBox5.Dock = System.Windows.Forms.DockStyle.Fill;
             this.pictureBox5.Location = new System.Drawing.Point(0, 0);
-            this.pictureBox5.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.pictureBox5.Name = "pictureBox5";
-            this.pictureBox5.Size = new System.Drawing.Size(1776, 1140);
+            this.pictureBox5.Size = new System.Drawing.Size(1184, 762);
             this.pictureBox5.TabIndex = 0;
             this.pictureBox5.TabStop = false;
             // 
             // button7
             // 
             this.button7.Font = new System.Drawing.Font("PMingLiU", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.button7.Location = new System.Drawing.Point(1634, 1053);
-            this.button7.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.button7.Location = new System.Drawing.Point(1089, 684);
             this.button7.Name = "button7";
-            this.button7.Size = new System.Drawing.Size(124, 58);
+            this.button7.Size = new System.Drawing.Size(83, 38);
             this.button7.TabIndex = 4;
             this.button7.Text = "Next";
             this.button7.UseVisualStyleBackColor = true;
@@ -566,10 +529,9 @@
             // button6
             // 
             this.button6.Font = new System.Drawing.Font("PMingLiU", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.button6.Location = new System.Drawing.Point(18, 1062);
-            this.button6.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.button6.Location = new System.Drawing.Point(12, 690);
             this.button6.Name = "button6";
-            this.button6.Size = new System.Drawing.Size(124, 58);
+            this.button6.Size = new System.Drawing.Size(83, 38);
             this.button6.TabIndex = 3;
             this.button6.Text = "Prev";
             this.button6.UseVisualStyleBackColor = true;
@@ -581,19 +543,17 @@
             this.pictureBox4.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.pictureBox4.Dock = System.Windows.Forms.DockStyle.Fill;
             this.pictureBox4.Location = new System.Drawing.Point(0, 0);
-            this.pictureBox4.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.pictureBox4.Name = "pictureBox4";
-            this.pictureBox4.Size = new System.Drawing.Size(1776, 1140);
+            this.pictureBox4.Size = new System.Drawing.Size(1184, 762);
             this.pictureBox4.TabIndex = 0;
             this.pictureBox4.TabStop = false;
             // 
             // button5
             // 
             this.button5.Font = new System.Drawing.Font("PMingLiU", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.button5.Location = new System.Drawing.Point(1623, 1062);
-            this.button5.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.button5.Location = new System.Drawing.Point(1082, 690);
             this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(124, 58);
+            this.button5.Size = new System.Drawing.Size(83, 38);
             this.button5.TabIndex = 4;
             this.button5.Text = "Next";
             this.button5.UseVisualStyleBackColor = true;
@@ -602,10 +562,9 @@
             // button4
             // 
             this.button4.Font = new System.Drawing.Font("PMingLiU", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.button4.Location = new System.Drawing.Point(18, 1053);
-            this.button4.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.button4.Location = new System.Drawing.Point(12, 684);
             this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(124, 58);
+            this.button4.Size = new System.Drawing.Size(83, 38);
             this.button4.TabIndex = 3;
             this.button4.Text = "Prev";
             this.button4.UseVisualStyleBackColor = true;
@@ -617,19 +576,17 @@
             this.pictureBox3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.pictureBox3.Dock = System.Windows.Forms.DockStyle.Fill;
             this.pictureBox3.Location = new System.Drawing.Point(0, 0);
-            this.pictureBox3.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.pictureBox3.Name = "pictureBox3";
-            this.pictureBox3.Size = new System.Drawing.Size(1776, 1140);
+            this.pictureBox3.Size = new System.Drawing.Size(1184, 762);
             this.pictureBox3.TabIndex = 0;
             this.pictureBox3.TabStop = false;
             // 
             // button3
             // 
             this.button3.Font = new System.Drawing.Font("PMingLiU", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.button3.Location = new System.Drawing.Point(1623, 1053);
-            this.button3.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.button3.Location = new System.Drawing.Point(1082, 684);
             this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(124, 58);
+            this.button3.Size = new System.Drawing.Size(83, 38);
             this.button3.TabIndex = 2;
             this.button3.Text = "Next";
             this.button3.UseVisualStyleBackColor = true;
@@ -638,10 +595,9 @@
             // button2
             // 
             this.button2.Font = new System.Drawing.Font("PMingLiU", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.button2.Location = new System.Drawing.Point(18, 1062);
-            this.button2.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.button2.Location = new System.Drawing.Point(12, 690);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(108, 58);
+            this.button2.Size = new System.Drawing.Size(72, 38);
             this.button2.TabIndex = 1;
             this.button2.Text = "Prev";
             this.button2.UseVisualStyleBackColor = true;
@@ -653,21 +609,19 @@
             this.pictureBox2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.pictureBox2.Dock = System.Windows.Forms.DockStyle.Fill;
             this.pictureBox2.Location = new System.Drawing.Point(0, 0);
-            this.pictureBox2.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(1776, 1140);
+            this.pictureBox2.Size = new System.Drawing.Size(1184, 762);
             this.pictureBox2.TabIndex = 0;
             this.pictureBox2.TabStop = false;
             // 
             // Spam_Emails
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1776, 1140);
+            this.ClientSize = new System.Drawing.Size(1184, 762);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.pictureBox1);
-            this.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.Name = "Spam_Emails";
             this.Text = "Spam_Emails";
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
