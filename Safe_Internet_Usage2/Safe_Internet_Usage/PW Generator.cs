@@ -31,7 +31,14 @@ namespace Safe_Internet_Usage
 
         private void button1_Click(object sender, EventArgs e)
         {
-            Do_Checkbox();
+            if (numericUpDown1.Value >0)
+            {
+                Do_Checkbox();
+            }
+            else
+            {
+                textBox1.Text = "Input the PW Langth !!";
+            }
         }
 
 
@@ -112,6 +119,7 @@ namespace Safe_Internet_Usage
                     }
                     else
                     {
+
                         textBox1.Text = "Can't generate the PW";
                     }
                 }
